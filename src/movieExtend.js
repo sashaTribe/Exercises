@@ -7,5 +7,5 @@ let movie = {
     movieID: '1'
 };
 console.log(movie);
-// This will give an error as I am trying to change a read-only variable
-movie.movieID = '4';
+// This will give an error during compilation phase as I am trying to change a read-only variable
+//movie.movieID = '4';
