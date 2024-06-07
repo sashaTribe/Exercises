@@ -6,4 +6,5 @@ let myMovie = {
     isAvailableOnStreaming: true,
     movieID: '1'
 };
+// prints out the details to my movie object
 console.log(myMovie);
